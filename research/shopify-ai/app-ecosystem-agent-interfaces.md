@@ -33,4 +33,3 @@ Shopify Sidekick app extensions 允许应用提供数据源和动作，让 Sidek
 
 - [Shopify Sidekick app extensions](https://shopify.dev/docs/apps/build/sidekick)（访问：2026-10-11）
 - [Expose app actions to Sidekick](https://shopify.dev/docs/apps/build/sidekick/build-app-actions)（访问：2026-10-11）
-- [Expose app data to Sidekick](https://shopify.dev/docs/apps/build/sidekick/build-data-sources)（访问：2026-10-11）
