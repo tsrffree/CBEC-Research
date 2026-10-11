@@ -36,5 +36,4 @@ AI 会降低静态视觉内容和常规页面搭建的制作成本，但页面�
 ## 来源与参考
 
 - [Shopify themes: architecture versions and sources](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/about-themes)（主题兼容性与 Horizon 家族主题说明；访问：2026-10-11）
-- [Shopify AI-generated theme blocks](https://shopify.dev/docs/storefronts/themes/architecture/blocks/ai-generated-blocks)（开发文档；访问：2026-10-11）
 - [Shopify Sidekick app extensions](https://shopify.dev/docs/apps/build/sidekick)（说明应用扩展与受控动作的产品边界；访问：2026-10-11）
