@@ -10,6 +10,10 @@
 - [SEO、AEO 与 GEO 研究框架](research/shopify-ai/seo-aeo-geo.md)
 - [应用生态与 Agent 接口](research/shopify-ai/app-ecosystem-agent-interfaces.md)
 
+## 支付与风控
+
+- [Shopify Payments：3DS 与欺诈处理](research/shopify-payments/3ds-fraud-model.md)
+
 ## 维护约定
 
 - 事实、研究推论、行动建议和待验证事项分开书写。
