@@ -1,6 +1,6 @@
 # 应用生态与 Agent 接口
 
-**整理日期：** 2026-10-11  
+**整理日期：** 2026-10-11；扩展限额于 2026-10-12 按开发文档复核。  
 **范围：** Shopify 应用扩展与建站 SaaS 的产品设计参考。
 
 ## 已核实的事实
@@ -8,6 +8,8 @@
 Shopify Sidekick app extensions 允许应用提供数据源和动作，让 Sidekick 能在管理流程中检索应用数据或导航到相应的应用界面。开发文档列出扩展类型、意图、工具、输入 schema、权限和运行时约束。应用动作由商家通过对应界面完成或参与；平台会对扩展进行策略检查。
 
 官方文档当前说明每个应用最多 5 个 intents、20 个 tools，并有描述长度和响应时间等限制。限制可能更新，设计时应复查文档。
+
+2026-10-12 打开的 Sidekick app extensions 页进一步写明：每个用户在一家店最多集成 20 个应用。扩展描述和 `extensions_summary` 各 256 token；instructions 2048 token；tool 名称 64 字符，描述 512 字符。查询字符串 500 字符。返回 4000 token。应用数据响应 1 秒，应用动作 3 秒。Discount intents 计入该应用的 intent 上限。
 
 ## 研究推论
 
@@ -31,5 +33,5 @@ Shopify Sidekick app extensions 允许应用提供数据源和动作，让 Sidek
 
 ## 来源
 
-- [Shopify Sidekick app extensions](https://shopify.dev/docs/apps/build/sidekick)（访问：2026-10-11）
+- [Shopify Sidekick app extensions](https://shopify.dev/docs/apps/build/sidekick)（访问：2026-10-11；限额复核：2026-10-12）
 - [Expose app actions to Sidekick](https://shopify.dev/docs/apps/build/sidekick/build-app-actions)（访问：2026-10-11）
